@@ -1,0 +1,167 @@
+
+.left{
+position: absolute;  
+left: 30px;
+top: 20px;
+/* border:2px solid red; */
+display: inline-block;
+}
+.left img{ 
+width: 60px;
+}
+.left div{
+text-align: center;
+line-height: 15px;
+font-size: 20px;
+}
+
+.right{
+position: absolute;  
+right: 34px;
+top: 20px;
+/* border:2px solid blue; */
+display: inline-block;
+
+}
+
+.navbar{
+display: inline-block;
+
+}
+.navbar li{
+display: inline-block;
+font-size: 20px;
+}
+.navbar a{
+color:#fff;
+text-decoration:none;
+padding: 30px 20px;
+
+}
+.navbar li a:hover, .navbar li a.active{
+text-decoration: underline;
+border-radius: 20px;
+color: rgb(237, 240, 82);
+}
+
+
+
+/* _______FOR HOTEL MIDDLE PART______ */
+.textbox h1{
+    top: 55%;
+    margin-left: 20px;
+    color:black;
+    font-size: 45px;
+    text-align:left;
+    border: 2px solid black; 
+    background-color:wheat;
+    display: inline-block;
+    position: absolute;
+}
+.textbox h6{
+    top:50%;
+    margin-top: 10px;
+    margin-left: 20px;
+    color:white;
+    text-align:left;
+    display: block;
+    display: inline-block;
+    position: absolute;
+}
+.textbox h3{
+    top: 50%;
+    font-size: 25px;
+    margin-top: 100px;
+    margin-left: 20px;
+    color:white;
+    text-align:left;
+    display: inline-block;
+    position: absolute;
+}
+.textbox p{
+    top: 50%;
+    margin-top: 140px;
+    margin-left: 20px;
+    font-size: 15px;
+    display: inline-block;
+    position: absolute;
+}
+.mid-btn{
+    top: 85%;
+    margin-left: 20px;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid black;
+    position:absolute;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.7s;
+    color: rgb(71, 27, 71);
+    
+}
+.mid-btn::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgb(173, 142, 245);
+   
+    transition: 0.3s ease-in;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    }
+.mid-btn:hover::before{
+    border: 1px dotted rgb(41, 122, 197);
+    border-radius: 0 0 100% 0;
+    bottom: 80%;
+    height: 20%;
+    }
+
+    /*_______FOR  we provide______*/
+    #services-container {
+        margin: 0px;
+        padding: 10px;
+        }
+    #services {
+        margin: 35px;
+        display: flex;
+        cursor: pointer;
+        }
+    .headline{
+        text-decoration: underline;
+        text-align: center;
+        font-size: 36px;
+        }
+    #services .box{ 
+        border: 2px dotted #000;
+        padding: 30px;
+        margin: 2px 40px;
+        background:#f2f2f2;
+        margin-bottom: 20px;
+        }
+    #services .box h2{
+        text-align: center;
+        }
+        #services .box p{
+            text-align:justify;
+            font-size: 15px;
+            color: rgb(51, 47, 47);
+            margin-top: 10px;
+        }  
+    #services .box img{ 
+       height: 70px;
+       margin: auto;
+       display: block;
+       /* margin-left:7px; */
+        }
+        .footer{
+            text-align: center;
+            color:white;
+            background-color: rgb(60, 60, 61);
+            
+
+        }
+
+    
